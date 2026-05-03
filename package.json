@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "server": "json-server --watch server.json --port 3333"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinSperque13/Hair-Day.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KevinSperque13/Hair-Day/issues"
+  },
+  "homepage": "https://github.com/KevinSperque13/Hair-Day#readme",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.15"
+  }
+}
