@@ -16,8 +16,8 @@
   },
   "homepage": "https://github.com/KevinSperque13/Hair-Day#readme",
   "dependencies": {
-    "json-server": "^1.0.0-beta.15",
-    "openai": "^6.36.0"
+    "json-server": "^1.0.0-beta.15"
+    
   },
   "devDependencies": {
     "@babel/core": "^7.29.0",
@@ -25,6 +25,7 @@
     "babel-loader": "^9.2.1",
     "copy-webpack-plugin": "^14.0.0",
     "css-loader": "^7.1.4",
+    "dayjs": "^1.11.20",
     "html-webpack-plugin": "^5.6.7",
     "style-loader": "^4.0.0",
     "webpack": "^5.106.2",
