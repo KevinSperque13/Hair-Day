@@ -21,7 +21,8 @@ output: {
 
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "index.html")
+      template: path.resolve(__dirname, "index.html"),
+      favicon: path.resolve("src","assets","scissors.svg"),
     }),
   ],
 }
