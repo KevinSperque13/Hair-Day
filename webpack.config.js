@@ -2,6 +2,7 @@ const path = require("path")
 const HtmlWebpackPlugin = require("html-webpack-plugin")
 const CopyWebpackPlugin = require("copy-webpack-plugin")
 
+
 module.exports = {
 target: "web",
 mode: "development",
@@ -40,7 +41,17 @@ output: {
       {
         test: /\.css$/,
         use: ["style-loader", "css-loader"],
-      }
-    ]
-  }
+      },
+      {
+        test: /\.js$/i,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader",
+          options: {
+            presets: ["@babel/preset-env"],
+          },
+        },
+      },
+    ],
+  },
 }
