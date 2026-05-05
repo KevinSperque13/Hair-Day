@@ -6,7 +6,6 @@
     "build": "webpack",
     "dev": "webpack serve",
     "server": "json-server --watch server.json --port 3333"
-    
   },
   "repository": {
     "type": "git",
@@ -17,9 +16,11 @@
   },
   "homepage": "https://github.com/KevinSperque13/Hair-Day#readme",
   "dependencies": {
-    "json-server": "^1.0.0-beta.15"
+    "json-server": "^1.0.0-beta.15",
+    "openai": "^6.36.0"
   },
   "devDependencies": {
+    "html-webpack-plugin": "^5.6.7",
     "webpack": "^5.106.2",
     "webpack-cli": "^5.0.0",
     "webpack-dev-server": "^5.2.3"
