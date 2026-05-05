@@ -3,8 +3,10 @@
   "description": "Aplicação Web para agendamento de corte de cabelo",
   "author": "Kevin Ferreira Sperque",
   "scripts": {
-    "server": "json-server --watch server.json --port 3333",
-    "build": "webpack"
+    "build": "webpack",
+    "dev": "webpack serve",
+    "server": "json-server --watch server.json --port 3333"
+    
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   },
   "devDependencies": {
     "webpack": "^5.106.2",
-    "webpack-cli": "^7.0.2"
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^5.2.3"
   }
 }
