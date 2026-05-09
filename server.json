@@ -1,3 +1,10 @@
 {
-  "schedules": []
+  "schedules": [
+    {
+      "id": "tKmtIywr0kk",
+      "name": "kevin",
+      "when": null
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
