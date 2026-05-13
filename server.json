@@ -1,9 +1,24 @@
 {
   "schedules": [
     {
-      "id": "tKmtIywr0kk",
+      "id": "kkY-uKQMjBc",
+      "name": "João",
+      "when": "2026-05-13T13:00:00.000Z"
+    },
+    {
+      "id": "hXxmondwm8I",
+      "name": "cleber",
+      "when": "2026-05-13T17:00:00.000Z"
+    },
+    {
+      "id": "ytZ8EHneKuE",
       "name": "kevin",
-      "when": null
+      "when": "2026-05-13T22:00:00.000Z"
+    },
+    {
+      "id": "AzJasBiZ8Ec",
+      "name": "Mario",
+      "when": "2026-05-14T00:00:00.000Z"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
